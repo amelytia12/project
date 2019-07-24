@@ -15,7 +15,7 @@
         "precision": 10,
         "scale": 0,
         "mysql": {
-          "columnName": "id_client",
+          "columnName": "id",
           "dataType": "int",
           "dataLength": 11,
           "dataPrecision": 10,

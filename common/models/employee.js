@@ -15,8 +15,10 @@ module.exports = function(Employee) {
                 arg: 'email1', type: 'object', root: true
             },
             http: {path : '/getEmail', verb: 'get'}
-        },
-
+        }
+    );
+    
+    Employee.remoteMethod(
         'getName',
         {
             description: 'get name like -> dindin',
