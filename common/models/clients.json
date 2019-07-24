@@ -1,0 +1,88 @@
+{
+    "name": "Clients",
+    "options": {
+      "idInjection": true,
+      "mysql": {
+        "schema": "loopback-example-mysql",
+        "table": "clients"
+      }
+    },
+    "properties": {
+      "id": {
+        "type": "Number",
+        "required": true,
+        "length": 11,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "id_client",
+          "dataType": "int",
+          "dataLength": 11,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "nama_perusahaan": {
+        "type": "String",
+        "required": true,
+        "length": 11,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "nama_perusahaan",
+          "dataType": "varchar",
+          "dataLength": 11,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "kontak_perusahaan": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "kontak_perusahaan",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "email": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "email",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "address": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "address",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      }
+      
+    }
+}

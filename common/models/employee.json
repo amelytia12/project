@@ -1,0 +1,72 @@
+{
+    "name": "Employee",
+    "options": {
+      "idInjection": true,
+      "mysql": {
+        "schema": "loopback-example-mysql",
+        "table": "employees"
+      }
+    },
+    "properties": {
+      "id": {
+        "type": "Number",
+        "required": true,
+        "length": 11,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "id",
+          "dataType": "int",
+          "dataLength": 11,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "fist_name": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "fist_name",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "last_name": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "last_name",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "email_addres": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "email_addres",
+          "dataType": "varchar",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      }
+    }
+}
